@@ -1,0 +1,17 @@
+\section{Code}
+
+\begin{lstlisting}
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    try {
+        while (scan.hasNext()) {
+            count = 0;
+            int n = scan.nextInt();
+            setup(n);
+            towerOfHanoi(n, startPole, endPole, midPole);
+        }
+    } catch (Exception e) {
+        System.out.println("e");
+    }
+}
+\end{lstlisting}

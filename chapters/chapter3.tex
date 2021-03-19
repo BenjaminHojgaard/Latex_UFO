@@ -1,0 +1,41 @@
+\section{Section Three}
+
+List with numbers and letters.
+
+\begin{enumerate}
+\item The first item
+\begin{enumerate}
+\item Nested item 1
+\item Nested item 2
+\end{enumerate}
+\item The second item
+\item The third etc \ldots
+\end{enumerate}
+
+List with bullet-points.
+
+\begin{itemize}
+\item more work
+\item more responsibility
+\item more satisfaction
+\end{itemize}
+
+List with alternative bullet-points.
+
+\ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=-- ,
+Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$ )
+\begin{easylist}
+& Blah
+&& Blah
+&&& Blah
+&&&& Blah
+&&&&& Blah
+\end{easylist}
+
+List with roman numerals
+\begin{easylist}[enumerate]
+\ListProperties(Style2*=,Numbers=R,Numbers1=R,FinalMark={)})
+& Main item~:
+&& Sub item.
+&& Another sub item.
+\end{easylist}

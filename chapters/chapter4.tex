@@ -1,0 +1,53 @@
+\section{Section Four - Tables}
+
+
+
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ item 11 & item 12 & item 13 \\
+ \hline
+ item 21  & item 22  & item 23  \\
+\hline
+\end{tabularx}
+
+\vspace{5mm}
+\begin{tabular}{ |l|l| }
+  \hline
+  \multicolumn{2}{|c|}{Nationalities} \\
+  \hline
+  GK & Paul Robinson \\
+  DK & Lucas Radebe \\
+  DE & Michael Duberry \\
+  DE & Dominic Matteo \\
+  UK & Dider Domi \\
+  US & David Batty \\
+  NO & Eirik Bakke \\
+  CA & Jody Morris \\
+  UK & Jamie McMaster \\
+  US & Alan Smith \\
+  PL & Mark Viduka \\
+  \hline
+\end{tabular}
+\vspace{5mm}
+\begin{table}[h!]
+  \begin{center}
+    \caption{Table with description and label.}
+    \label{tab:table1}
+    \begin{tabular}{l|c|r} 
+      \textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+      $\alpha$ & $\beta$ & $\gamma$ \\
+      \hline
+      1 & 1110.1 & a\\
+      2 & 10.1 & b\\
+      3 & 23.113231 & c\\
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\paragraph{Tables paragraph}
+Table 1 can be found on page \pageref{tab:table1}
+
+\vspace{5mm}
